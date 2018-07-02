@@ -1,3 +1,237 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: black;
+}
+main {
+  background-image: url(../assets/images/hero.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: -4.3%;
+  width: 95.5%;
+  margin: 0% 2.25%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 50%;
+}
+.logo img {
+  width: 10%;
+  margin: 5% 12.5% 4.9%;
+}
+.topMenu {
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.4% 13.5% 0% 0%;
+  font-size: 108%;
+  letter-spacing: 0.03em;
+}
+.topMenu :nth-child(2) {
+  padding-left: 6%;
+  letter-spacing: 0.06em;
+}
+.topMenu :nth-child(3) {
+  padding-right: 7.5%;
+}
+.topMenu :last-child {
+  border: 1px solid white;
+  border-radius: 8px;
+  padding: 3% 5.1%;
+}
+.signup {
+  background-color: white;
+  width: 31%;
+  align-self: flex-end;
+  padding: 4.5% 5.3% 3.2% 4.7%;
+  float: right;
+}
+.signup h1, .signup h3 {
+  color: #352384;
+  font-size: 243%;
+  padding-right: 20%;
+  line-height: 105%;
+  letter-spacing: -0.01em;
+}
+.signup h3 {
+  font-size: 92%;
+  margin: 3.7% 0%;
+  letter-spacing: -0.06em;
+}
+#phoneNumber {
+  border: none;
+  border-bottom: 1px solid #352384;
+  width: 100%;
+  padding: 1.9% 0%;
+  margin: 2.5% 0% 11.5%;
+  color: black;
+}
+::-webkit-input-placeholder  {
+  font-size: 106%;
+  color: #728099;
+}
+.becomeDriver {
+  background-color: #FF00BF;
+  padding: 3.8% 5%;
+  border-radius: 7px;
+  font-size: 95%;
+}
+.signup .signToRide {
+  color: #728099;
+  margin: 0% 5%;
+  font-size: 95%;
+  font-weight: 500;
+}
+.signup a {
+  color: inherit;
+}
+.signup p {
+  color: #728099;
+  margin: 11.5% 0% 0%;
+  font-size: 61%;
+}
+.signup :last-child {
+  margin-top: 2%;
+}
+.section2 {
+  background: linear-gradient(to bottom,#76278F, #2B1E66);
+}
+.section2 img {
+  float: right;
+  width: 35%;
+  padding: 5.8% 12.2% 4.5% 0%;
+  background: inherit;
+}
+.textSection2 {
+  padding: 6.1% 0% 0% 11.8%;
+  box-shadow: -50px -5px 0px -5px black, 0px -30px 50px -5px #76278F;
+  width: 47%;
+}
+.textSection2 h2 {
+  margin: 1% 0% 2.8%;
+  font-size: 166%;
+}
+.textSection2 p {
+  margin-bottom: 10.3%;
+  font-size: 96.5%;
+  line-height: 142%;
+  width: 75%;
+}
+.textSection2 p span {
+  letter-spacing: -0.01em;
+}
+.video {
+  background-color: white;
+}
+.videoText {
+  display: inline-block;
+  vertical-align: top;
+  width: 24.9%;
+  padding: 1.6% 4%;
+}
+.videoText span, .videoText h1, .videoText p  {
+  color: black;
+}
+.videoText span {
+  font-size: 65%;
+  line-height: 0%;
+  font-weight: 700;
+}
+.videoText h1 {
+  font-size: 170%;
+  letter-spacing: -0.02em;
+}
+.videoText p {
+  font-size: 96%;
+  margin-top: 8%;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 149%;
+}
+.videoSection div:nth-child(3) p:last-child {
+  margin-top: 7%;
+}
+.video iframe {
+  width: 909px;
+  height: 504px;
+  vertical-align: top;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #333447;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.5% 22%   0% 10%;
+  font-size: 98%;
+}
+.footer ul {
+  width: 14%;  
+}
+.footer li {
+  margin: 0% 0% 22.5%;
+}
+.footer ul li a:hover {
+  color: #FF00BF;
+}
+.footer ul li:first-child a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.footer img {
+  width: 100%;
+  margin: 1.3% 0%;
+}
+.footer ul li:first-child {
+  font-weight: 600;
+  font-size: 110%;
+  letter-spacing: 0.02em;
+}
+.footer ul:last-child {
+  padding-top: 1.5%;
+}
+.socialMedia {
+  padding: 3.8% 3.8% 2%;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  border: 1px solid white;
+  width: 2.5%;
+  padding: 0.5% 0%;
+  border-radius: 100px;
+  margin: 0% 2.7%;
+}
+.fa-facebook-f {
+  margin-left: 39%;
+}
+.fa-instagram {
+  font-size: 112%;
+  margin-left: 25%;
+}
+.fa-twitter {
+  margin-left: 29%;
+}
+footer p {
+  padding: 3.4%;
+  width: 49%;
+  border-top: 2px solid white;
+  text-align: center;
+  margin: auto;
+  font-size: 96%;
+}
